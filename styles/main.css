@@ -8,6 +8,12 @@ body{
     justify-content: center;
 }
 
+.title {
+    font-size: 10rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
 @keyframes slide-in {
     0% {
         transform: rotate(90deg) translateX(-100px);
