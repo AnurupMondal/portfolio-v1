@@ -588,3 +588,14 @@ body {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  nav ul {
+      display: none;
+  }
+
+  body {
+      overflow-y: auto;
+      overflow-x: hidden;
+  }
+}
