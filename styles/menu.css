@@ -14,7 +14,7 @@ body
    display: none;
    position: relative;
    top: 10px;
-   right: 20px;
+   right: 0px;
    z-index: 1;
    -webkit-user-select: none;
    user-select: none;
