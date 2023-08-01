@@ -129,6 +129,7 @@ body
  #menuToggle input:not(:checked) ~ ul
  {
    transform: none;
+   display: none;
  }
 
  @media screen and (max-width: 768px) {
