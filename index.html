@@ -13,10 +13,11 @@
     <link rel="stylesheet" href="./styles/menu.css">
 
     <!-- Scripts -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="scripts/index.js" defer></script>
 </head>
 <body>
-<header class="container" >
+<header class="header" >
     <nav>
         <img id="logo" src="./images/logo.png" class="logo" height="50" width="50">
             <ul>
@@ -42,8 +43,10 @@
 <section class="container" id="hero-section">
     <div class="hero-text">
         <h3 class="caption">Web developer</h3>
-        <h1 class="bio">Hi, I'm <span class="highlight">Anurup</span></h1>
-        <h1 class="bio">Chandra Mondal from India</h1>
+        <span id="typed">
+            <h1 class="bio">Hi, I'm <span class="highlight">Anurup</span></h1>
+            <h1 class="bio">Chandra Mondal from India</h1>
+        </span>
     </div>
     <div class="hero-img">
         <img src="./images/hero.png" alt="Hero Image">
