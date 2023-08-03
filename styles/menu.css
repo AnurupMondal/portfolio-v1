@@ -83,26 +83,19 @@ body
  {
    opacity: 1;
    transform: rotate(45deg) translate(-2px, -1px);
-   /* background: #232323; */
  }
  
- /*
-  * But let's hide the middle one.
-  */
  #menuToggle input:checked ~ span:nth-last-child(3)
  {
    opacity: 0;
    transform: rotate(0deg) scale(0.2, 0.2);
  }
  
- /*
-  * Ohyeah and the last one should go the other direction
-  */
  #menuToggle input:checked ~ span:nth-last-child(2)
  {
    transform: rotate(-45deg) translate(0, -1px);
  }
- 
+
  #menu {
     display: none;
     position: absolute;
@@ -114,7 +107,6 @@ body
     backdrop-filter: blur(10px);
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
-   /* to stop flickering of text in safari */
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
