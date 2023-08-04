@@ -76,10 +76,6 @@ nav ul li a:hover::after{
     padding: 100px;
 }
 
-/* .about {
-    align-items: center;
-    padding: 100px;
-} */
 .header {
     padding: 0 1rem;
     background-color: transparent;
